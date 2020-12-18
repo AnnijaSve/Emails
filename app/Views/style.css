@@ -1,0 +1,241 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    line-height: 150%;
+}
+
+section {
+    text-align: center;
+}
+
+div {
+    height: 100%;
+}
+
+article {
+    position: absolute;
+    text-align: start;
+    margin-left: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+}
+
+.container {
+    display: table;
+    width: 100%;
+}
+
+.left-half {
+    background-color: #F2F5FA;
+    position: absolute;
+    left: 0px;
+    width: 40%;
+}
+
+.right-half {
+    position: absolute;
+    right: 0px;
+    width: 1120px;
+}
+
+.nav{
+    padding: 120px;
+    background-color: #F2F5FA;
+    text-align: start;
+
+}
+.inline {
+    display: inline;
+}
+.a1 {
+    margin: 10px;
+    font-size: medium;
+    color: #6A707B;
+}
+.a2 {
+    margin-right: 40px;
+    color: #131821;
+}
+.p1 {
+    color: #131821;
+    font-size: xx-large;
+}
+.p2 {
+    color: #6A707B;
+    font-size: medium;
+    width: 70%;
+}
+
+.input1 {
+    position: absolute ;
+    text-align: start;
+    margin-left: 100px;
+    top: 65%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+    border:solid #E3E3E4 1px;
+    border-left:solid #4066A5 5px;
+    z-index: 4;
+}
+
+.p3 {
+    position: absolute;
+    text-align: start;
+    margin-left: 100px;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+}
+.p4 {
+    color: #6A707B;
+    font-size: medium;
+    display: inline
+}
+.p5 {
+    color: #131821;
+    font-size: medium;
+    display: inline;
+}
+.p6 {
+    position: absolute;
+    text-align: start;
+    margin-left: 100px;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+}
+
+.p7 {
+    position: absolute;
+    border-top: 2px solid #E3E3E4;
+    text-align: start;
+    margin-left: 100px;
+    top: 80%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+
+}
+
+.p8 {
+    position: absolute;
+    text-align: start;
+    margin-left: 100px;
+    color: #6A707B;
+    font-size: small;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+.p9 {
+    position: absolute;
+    border-top: 2px solid #E3E3E4;
+    text-align: start;
+    margin-left: 100px;
+    top: 48%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+}
+.nav1{
+    position: absolute;
+    text-align: start;
+    margin-left: 100px;
+    top: 85%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.nav2{
+    position: absolute;
+    text-align: start;
+    margin-left: 100px;
+    top: 55%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+.button1 {
+
+    position: absolute ;
+    text-align: start;
+    color: #6A707B;
+    border: none;
+    outline: none;
+    margin-left: 100px;
+    top: 65%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    padding: 18px;
+    z-index: 4;
+
+}
+
+.errorMessage {
+    position: absolute;
+    text-align: start;
+    font-size: medium;
+    color: red;
+    margin-left: 100px;
+    top: 68%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+
+}
+.cup {
+    position: absolute;
+    text-align: start;
+    margin-left: 100px;
+    top: 27%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+
+.img {
+    background-image: url(https://www.hdnicewallpapers.com/Walls/Big/Food%20and%20Drinks/Various_Sliced_of_Fruits_4K_Pics.jpg);
+    background-image:
+            -webkit-image-set(
+                    url(https://www.hdnicewallpapers.com/Walls/Big/Food%20and%20Drinks/Various_Sliced_of_Fruits_4K_Pics.jpg) 1x,
+                    url(https://www.hdnicewallpapers.com/Walls/Big/Food%20and%20Drinks/Various_Sliced_of_Fruits_4K_Pics.jpg) 2x,
+            );
+    background-image:
+            image-set(
+                    url(https://www.hdnicewallpapers.com/Walls/Big/Food%20and%20Drinks/Various_Sliced_of_Fruits_4K_Pics.jpg) 1x,
+                    url(https://www.hdnicewallpapers.com/Walls/Big/Food%20and%20Drinks/Various_Sliced_of_Fruits_4K_Pics.jpg) 2x,
+            );
+}
